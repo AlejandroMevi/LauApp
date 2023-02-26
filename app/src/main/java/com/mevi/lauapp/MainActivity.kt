@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             Button.setOnClickListener {
                 Toast.makeText(this@MainActivity, "C. Tangana es reggeaton", Toast.LENGTH_SHORT).show()
                 println("Es la velda")
+                Button.setBackgroundResource(R.color.black)
             }
         }
     }
